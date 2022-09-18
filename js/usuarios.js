@@ -11,7 +11,7 @@ window.onload = cantus();
 window.onload = leerUsuarios();
 
 
-function cantus(){let cantidadUsuarios = 0;}
+function cantus(){let cantidadUsuarios = 0;localStorage.setItem("cantidadUsuarios", cantidadUsuarios) ;}
 
 function leerUsuarios (){
     let cantidadUsuarios = localStorage.getItem("cantidadUsuarios") ;
