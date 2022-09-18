@@ -7,7 +7,11 @@ const usuarioDos = localStorage.getItem("usuarioDos") ;
 const usuarioTres = localStorage.getItem("usuarioTres") ;
 const usuarioCuatro = localStorage.getItem("usuarioCuatro") ;
 
+window.onload = cantus();
 window.onload = leerUsuarios();
+
+
+function cantus(){let cantidadUsuarios = 0;}
 
 function leerUsuarios (){
     let cantidadUsuarios = localStorage.getItem("cantidadUsuarios") ;
