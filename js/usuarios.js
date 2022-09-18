@@ -1,6 +1,6 @@
 const contenedorUsuarios = document.querySelector("#usuarios-contenedor") ;
 let contenidoHTML = "" ;
-//let cantidadUsuarios = 0;
+let cantidadUsuarios = 0;
 
 const usuarioUno = localStorage.getItem("usuarioUno") ;
 const usuarioDos = localStorage.getItem("usuarioDos") ;
